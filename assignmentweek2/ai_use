@@ -1,0 +1,17 @@
+  How I used AI
+
+I tried to follow the Three Gates properly.
+
+1. First I looked at the data myself, listed every problem I could find, and wrote everything in `1_attempt.md` without any AI help.
+2. After that I described the problems in normal language and asked an AI tool for cleaning code ideas (as a coach only).
+3. I copied the suggestions into a notebook, ran them one by one on a copy of the data, and decided myself whether to keep, change, or reject each line.
+
+ What I asked / what happened
+- I asked for a simple pandas cleaning pipeline after I already knew the main problems.
+- AI gave me things like `drop_duplicates`, removing the comma from prices, `pd.to_numeric`, fixing the item name, and dealing with the crazy high prices.
+- I never pasted the actual data rows into the AI.
+- When AI suggested filling the missing price with a mean, I said no and left it as missing.
+- For the 9999 and 1250 values, AI wanted to delete the whole rows. I kept the rows and just turned those prices into NaN so the structure stays the same.
+- The final decisions in the reflection are mine.
+
+No personal info was shared with any AI.
